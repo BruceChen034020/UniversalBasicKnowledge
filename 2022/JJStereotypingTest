@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>JJ民族性測試 - 宇宙基本知識</title>
+
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">JJ民族性測試</div>
+
+      <div class="story" id="story">
+        
+
+        <div>　　JJ民族性測試一個對<a href="HighlyDevelopedOrganisms">高等生物</a>民族性測試，分為3個階段，每一個階段獨立。每一個階段都會有3種結果，組合起來總共27種結果。雖然理論上有27種結果，但目前已知的生物中，只有18種存在。</div>
+        <div>　　<h1> J1 </h1> </div>
+        <div>　　將3個待測種族的人放在一個孤島上，若其中2個人會聯合起來排擠第3個人，則稱該種族具有「非融合性」。若沒有排擠現象，稱該種族具有「融合性」。 </div>
+        <div>　　非融合性又可以再細分，在2個人排擠一個人時，派來第4個人，讓他先認識被排擠的人。若被排擠的人聯合第4者攻擊其他2人，稱為「好戰性」。若被排擠的人轉為與其他2人和好，聯合排擠第4者，稱為「排他性」。 </div>
+        <div>　　此測試總共有3種結果：融合性、好戰性、排他性。 </div>
+        <div>    <h1> J2 </h1> </div>
+      	<div>　　將200個待測種族的人放在一個孤島上，他們每個人可能各自有不同的技能，其中一個技能會受到人們的重視，擁有那個技能的人會受到人們的尊重。若那個受重視的技能是大多數的人都有的技能，則稱該種族具有「褒己性」。若那個技能只有少數人擁有，則稱為「非褒己性」。非褒己性又可以再分為兩類，此時若再派另一批具有該技能的人來，若他們會因為新來的人具有該技能而遵從他們，則稱為「貶己性」。若他們在認識新人之後反而開始尊崇大部分自己原擁有的技能，則稱為「見風轉舵性」。 </div>
+        <div>　　此測驗有3種結果：褒己性、貶己性、見風轉舵性。 </div>
+        <div>    <h1> J3 </h1> </div>
+        <div>　　假設對屬於某一種族的一群人灌輸一個新價值觀念，不同的種族會有不同的洗腦難易度。若完全無法洗腦，則稱為「難變性」。若被洗腦之後，強灌進去的新觀念在被洗腦者的心中產生了影響，並且該影響難以復原，則稱為「易變性」。若被洗腦之後，強灌進去的新觀念在被洗腦者的心中產生了影響，並且被洗腦者在發現自己被洗腦後，能夠自我還原該影響，則稱為「恢復性」。 </div>
+        <div>　　此測驗有3種結果：易變性、難變性、恢復性。其中具有易變性的種族的價值觀和流行文化是最容易被控制的。 </div>
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
