@@ -51,6 +51,7 @@ if(window.sessionStorage.getItem('background') == 'white')
   element = document.getElementById("nextChapter");
   element.style.background = "#FFFFFF";
   element.style.color = "#000000";
+  
   var cars = document.getElementsByTagName("a");
   for (let i = 0; i < cars.length; i++) {
     cars[i].style.color = "red";
@@ -154,6 +155,11 @@ $(document).ready(function()
     $('.content').css({'background-color':'#FFFFFF','color':'#000000'});
     $('.nextChapter').css({'background-color':'#FFFFFF','color':'#000000'});
     window.sessionStorage.setItem("background", 'white');
+    
+    var cars = document.getElementsByTagName("a");
+    for (let i = 0; i < cars.length; i++) {
+      cars[i].style.color = "red";
+    }
   });
 
   $('.green').on('click',function(e)
