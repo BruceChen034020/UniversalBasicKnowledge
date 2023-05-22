@@ -54,7 +54,7 @@ if(window.sessionStorage.getItem('background') == 'white')
   
   var cars = document.getElementsByTagName("a");
   for (let i = 0; i < cars.length; i++) {
-    cars[i].style.color = "red";
+    cars[i].style.color = "blue";
   }
 }else if(window.sessionStorage.getItem('background') == 'green')
 {
@@ -77,6 +77,10 @@ if(window.sessionStorage.getItem('background') == 'white')
   element.style.background = "#F3FDEC";
   element.style.color = "#000000";
 
+  var cars = document.getElementsByTagName("a");
+  for (let i = 0; i < cars.length; i++) {
+    cars[i].style.color = "blue";
+  }
 }else if(window.sessionStorage.getItem('background') == 'blue')
 {
   var element = document.getElementById("header");
@@ -98,6 +102,10 @@ if(window.sessionStorage.getItem('background') == 'white')
   element.style.background = "#E9F4FC";
   element.style.color = "#000000";
 
+  var cars = document.getElementsByTagName("a");
+  for (let i = 0; i < cars.length; i++) {
+    cars[i].style.color = "blue";
+  }
 }else if(window.sessionStorage.getItem('background') == 'gray')
 {
   var element = document.getElementById("header");
@@ -119,6 +127,10 @@ if(window.sessionStorage.getItem('background') == 'white')
   element.style.background = "#DDDDDD";
   element.style.color = "#000000";
 
+  var cars = document.getElementsByTagName("a");
+  for (let i = 0; i < cars.length; i++) {
+    cars[i].style.color = "blue";
+  }
 }else if(window.sessionStorage.getItem('background') == 'black')
 {
   var element = document.getElementById("header");
@@ -139,6 +151,11 @@ if(window.sessionStorage.getItem('background') == 'white')
   element = document.getElementById("nextChapter");
   element.style.background = "#3A3F4B";
   element.style.color = "#DDDDDD";
+  
+  var cars = document.getElementsByTagName("a");
+  for (let i = 0; i < cars.length; i++) {
+    cars[i].style.color = "#5555FF";
+  }
 }
 
 
@@ -158,7 +175,7 @@ $(document).ready(function()
     
     var cars = document.getElementsByTagName("a");
     for (let i = 0; i < cars.length; i++) {
-      cars[i].style.color = "red";
+      cars[i].style.color = "blue";
     }
   });
 
@@ -172,6 +189,11 @@ $(document).ready(function()
     $('.content').css({'background-color':'#F3FDEC','color':'#000000'});
     $('.nextChapter').css({'background-color':'#F3FDEC','color':'#000000'});
     window.sessionStorage.setItem("background", 'green');
+    
+    var cars = document.getElementsByTagName("a");
+    for (let i = 0; i < cars.length; i++) {
+      cars[i].style.color = "blue";
+    }
   });
 
   $('.blue').on('click',function(e)
@@ -184,6 +206,11 @@ $(document).ready(function()
     $('.content').css({'background-color':'#E9F4FC','color':'#000000'});
     $('.nextChapter').css({'background-color':'#E9F4FC','color':'#000000'});
     window.sessionStorage.setItem("background", 'blue');
+    
+    var cars = document.getElementsByTagName("a");
+    for (let i = 0; i < cars.length; i++) {
+      cars[i].style.color = "blue";
+    }
   });
 
   $('.gray').on('click',function(e)
@@ -196,6 +223,11 @@ $(document).ready(function()
     $('.content').css({'background-color':'#DDDDDD','color':'#000000'});
     $('.nextChapter').css({'background-color':'#DDDDDD','color':'#000000'});
     window.sessionStorage.setItem("background", 'gray');
+    
+    var cars = document.getElementsByTagName("a");
+    for (let i = 0; i < cars.length; i++) {
+      cars[i].style.color = "blue";
+    }
   });
 
   $('.black').on('click',function(e)
@@ -208,6 +240,11 @@ $(document).ready(function()
     $('.content').css({'background-color':'#3A3F4B','color':'#DDDDDD'});
     $('.nextChapter').css({'background-color':'#3A3F4B','color':'#DDDDDD'});
     window.sessionStorage.setItem("background", 'black');
+    
+    var cars = document.getElementsByTagName("a");
+    for (let i = 0; i < cars.length; i++) {
+      cars[i].style.color = "#5555FF";
+    }
   });
 
   //fontSize 更改 -- 14, 16, 20, 24
