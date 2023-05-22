@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>平面圓周率 - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">平面圓周率</div>
+
+      <div class="story" id="story">
+        
+        
+        <div>　　平面圓周率是理論上的圓周率，可由數學推導得知其值，為3.141592654。平面圓周率值星際普遍用「一二三四法」表示:</div>
+        <div>　　Pi = 2 * (1 + 1/2/3 + 1/2*3/4/5 + 1/2*3/4*5/6/7 + 1/2*3/4*5/6*7/8/9 + ……) </div>
+        <div>　　圓周率的實際測量值為<a href="LocalPhysicalConstants#Pi">當地圓周率</a> </div>
+        
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
