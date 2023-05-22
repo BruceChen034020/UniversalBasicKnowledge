@@ -199,14 +199,14 @@ footer
 }
 
 @media screen and (min-width: 1024px) {
-  .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen {
+  .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen, .pic {
     padding-left: 30px;
     float: right;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen {
+  .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen, .pic {
     padding-bottom: 20px;
     text-align: center;
   }
