@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>當地物理常數 - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">當地物理常數</div>
+
+      <div class="story" id="story">
+        
+        
+        </table>
+        <div>　　所有物理常數都不是不變的，會隨著時空而變化；不同的時空物理常數可能有所不同。一般而言，我們會測量每個地區的「當地光速」、「當地重力常數」以及「當地圓周率」，其他當地物理常數皆可由這三者<a href="LocalPhysicalConstantsDerivation">推出</a>。就目前觀測的記錄，同一時間同一個宇宙中每一個位置的光速皆相同，光速只會隨時間變化，其他物理常數則是隨時間和位置變化。</div>
+        <div>　　<h1 id="SpeedOfLight"> 當地光速 </h1> </div>
+        <div>　　Section1 </div>
+        <div>    <h1 id="GravitationalConstant"> 當地重力常數 </h1> </div>
+      	<div>　　Section2 </div>
+        <div>    <h1 id="Pi"> 當地圓周率 </h1> </div>
+        <div>　　Section3 </div>
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
