@@ -152,6 +152,9 @@ a:hover {
 .pic {
 	width: 90vw;
 }
+.pic img {
+	max-width: 90vw;
+}
 
 footer
 {
