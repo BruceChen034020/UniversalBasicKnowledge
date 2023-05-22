@@ -149,6 +149,9 @@ a:hover {
 	background-color: transparent;
 	padding: 2px;
 }
+.pic {
+	width: 90vw;
+}
 
 footer
 {
