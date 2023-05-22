@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>文明指數 - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">文明指數</div>
+
+      <div class="story" id="story">
+        
+        
+        <div>　　文明指數是由<a href="FieldSapience">智元</a>人定義的一個指標。其中包含了智元文明發展的重要事件，同時也是75%的文明發展的必經歷程，並且都是按照這個順序。</div>
+        <div>　　<h1> 指標內容 </h1> </div>
+        <table style="width:100%">
+          <tr>
+            <th>文明指數</th>
+            <th>名稱</th>
+            <th>詳細</th>
+            
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>遍滿全地</td>
+            <td>該星球的<a href="HighlyDevelopedOrganisms">高等生物</a>已經達到分布範圍為「全世界」的規模</td>
+            
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>歷史時代</td>
+            <td>該民族開始使用文字</td>
+            
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>畢氏定理</td>
+            <td>觀察到平面上的直角三角形的兩條直角邊的長度的平方和等於斜邊長的平方的現象</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>耶穌拜訪</td>
+            <td>該星球被救世主拜訪過，開始有了永生和復活的觀念。復活必須是真實的復活。</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>環保意識</td>
+            <td>該星球的人意識到自己的文明已經破壞自己的星球到了一定的程度，並且開始有要保護自己的星球的意識。保護的對象必須是自己的星球。</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <div>　　Section1 </div>
+        <div>    <h1> Section2 </h1> </div>
+      	<div>　　Section2 </div>
+        <div>    <h1> Section3 </h1> </div>
+        <div>　　Section3 </div>
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
