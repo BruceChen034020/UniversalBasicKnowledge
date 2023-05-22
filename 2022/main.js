@@ -154,7 +154,7 @@ if(window.sessionStorage.getItem('background') == 'white')
   
   var cars = document.getElementsByTagName("a");
   for (let i = 0; i < cars.length; i++) {
-    cars[i].style.color = "#5555FF";
+    cars[i].style.color = "#AAAAFF";
   }
 }
 
@@ -243,7 +243,7 @@ $(document).ready(function()
     
     var cars = document.getElementsByTagName("a");
     for (let i = 0; i < cars.length; i++) {
-      cars[i].style.color = "#5555FF";
+      cars[i].style.color = "#AAAAFF";
     }
   });
 
