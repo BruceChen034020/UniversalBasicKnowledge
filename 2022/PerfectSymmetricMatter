@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>對稱性物質 - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">對稱性物質</div>
+
+      <div class="story" id="story">
+        
+        
+        <div>　　對稱性物質是指滿足多種對稱性條件以及其他條件的物質，被視為最完美的物質。儘管對稱性物質在宇宙中佔極少數，但大多數<a href="HighlyDevelopedOrganisms">高等生物</a>的生活環境都是由對稱性物質組成的。</div>
+        <div>　　<h1> 定義 </h1> </div>
+        <div>　　符合以下所有條件的，稱為對稱性物質 </div>
+        <div>　　1.	<a href="Mass">重力質量</a>等於<a href="Mass">慣性質量</a>(<a href="https://zh.wikipedia.org/wiki/%E7%AD%89%E6%95%88%E5%8E%9F%E7%90%86">重力對稱性</a>) </div>
+        <div>　　2.	能夠質能互換且轉換當量是光速平方(<a href="https://zh.wikipedia.org/wiki/%E8%B3%AA%E8%83%BD%E7%AD%89%E5%83%B9">質能對稱性</a>) </div>
+        <div>　　3.	具有波粒二象性且物質波波長與動量成反比(<a href="https://zh.wikipedia.org/wiki/%E6%B3%A2%E7%B2%92%E4%BA%8C%E8%B1%A1%E6%80%A7">波粒對稱性</a>) </div>
+        <div>　　4.	具有與其電荷相反的反物質(<a href="https://zh.wikipedia.org/wiki/%E5%8F%8D%E7%89%A9%E8%B4%A8">正反對稱性</a>) </div>
+        <div>　　5.	可以被量子化(<a href="https://zh.wikipedia.org/wiki/%E9%87%8F%E5%AD%90%E5%8C%96">人類量子對稱性</a>) </div>
+        <div>　　6.	能夠參與<a href="https://zh.wikipedia.org/wiki/%E9%9B%BB%E7%A3%81%E5%8A%9B">電磁作用</a> </div>
+        <div>　　Section1 </div>
+        <div>    <h1> Section2 </h1> </div>
+      	<div>　　Section2 </div>
+        <div>    <h1> Section3 </h1> </div>
+        <div>　　Section3 </div>
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
