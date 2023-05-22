@@ -51,7 +51,10 @@ if(window.sessionStorage.getItem('background') == 'white')
   element = document.getElementById("nextChapter");
   element.style.background = "#FFFFFF";
   element.style.color = "#000000";
-
+  var cars = document.getElementsByTagName("a");
+  for (let i = 0; i < cars.length; i++) {
+    cars[i].style.color = "red";
+  }
 }else if(window.sessionStorage.getItem('background') == 'green')
 {
   var element = document.getElementById("header");
