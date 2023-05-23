@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>星際資訊傳輸系統 - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">星際資訊傳輸系統</div>
+
+      <div class="story" id="story">
+        
+        
+        <div>　　星際資訊傳輸系統是指將資訊從一個星球傳到另一個星球的方法。依據傳遞技術大致分為以下3個類別。無論使用何種方式傳遞，都必須使用<a href="../%E6%98%9F%E9%9A%9B%E8%A1%8C%E6%94%BF%E5%8D%80%E5%9F%9F%E8%88%87%E9%83%B5%E9%81%9E%E5%8D%80%E8%99%9F.txt">郵遞區號</a>。</div>
+        <div>　　<h1> 物質資訊傳輸系統 </h1> </div>
+        <div>　　物質資訊傳輸系統即傳遞承載資訊的物質，例如紙本信件。通常用<a href="Elevator">電梯</a>傳遞。 </div>
+        <div>    <h1> 電磁波資訊傳輸系統 </h1> </div>
+      	<div>　　電磁波資訊傳輸系統即傳遞承載資訊的電磁波，例如e-mail。這不僅是最受歡迎的星際資訊傳輸系統，在許多星球內部也是最受歡迎的(利用光纖傳遞)。 </div>
+        <div>    <h1> 超光速資訊傳輸系統 </h1> </div>
+        <div>　　超光速資訊傳遞有3種理論方法，但僅1種被實踐。超光速資訊傳輸系統因為維護成本昂貴且容易被破壞而鮮少使用。儘管鮮少使用，在大部分<a href="HighlyDevelopedOrganisms">文明</a>的刑法中，破壞超光速資訊傳輸系統是最重的罪，但也有少部分文明將殺人或叛國視為最重的罪。超光速資訊傳輸系統的主要成分是從發送地到接受地的波函數，這些波函數是消耗品，每傳遞一次資訊就會消耗若干個波函數，必須再補充。目前許多星球之間都有若干個準備好隨時可使用的波函數，卻無人使用。但是，若「觀測」到這些波函數，就會被處以重刑。所以，超光速資訊傳輸系統被批評為定罪陷阱。 </div>
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
