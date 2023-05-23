@@ -169,7 +169,7 @@
       123. 橙色分 Orange division (GY6149)
       124. 黃色分 Yellow division (GY6150)
       125. 綠色分 Green division (GY6151)
-      126. 藍色分 Blue division (GY6152)
+      126. 池藍色分 Blue division (GY6152)
       127. 靛色分 Indigo division (GY6153)
       128. 紫色分 Violet division (GY6154)
         
