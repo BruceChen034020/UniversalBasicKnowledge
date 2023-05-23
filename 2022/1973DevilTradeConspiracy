@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>1973人類與魔鬼交易陰謀論 - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">1973人類與魔鬼交易陰謀論</div>
+
+      <div class="story" id="story">
+        
+        
+        <div>　　<strong>1973人類與魔鬼交易陰謀論</strong>聲稱，西元1973年，有<a href="HighlyDevelopedOrganisms">人</a>違反<a href="HumanWorld#InformationProtection">星際公約</a>和<a href="HumanWorld">人類</a>進行技術交流。該指控沒有任何證據，也沒有任何嫌疑犯。</div>
+        <div>　　陰謀論的根據是，以下人類事件恰巧在同一年(西元1973年)發生：</div>
+        <div>　　1.	<a href="https://www.vox.com/a/internet-maps"網路的發明</a></div>
+        <div>　　<h1> Section1 </h1> </div>
+        <div>　　Section1 </div>
+        <div>    <h1> Section2 </h1> </div>
+      	<div>　　Section2 </div>
+        <div>    <h1> Section3 </h1> </div>
+        <div>　　Section3 </div>
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
