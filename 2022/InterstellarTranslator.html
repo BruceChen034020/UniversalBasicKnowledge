@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>星際翻譯機 - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">星際翻譯機</div>
+
+      <div class="story" id="story">
+        
+        
+        <div>　　宇宙中所有<a href="HighlyDevelopedOrganisms">高等生物</a>都能夠透過星際翻譯機互相溝通。每個物種使用的原生溝通方式不同，有的是用電磁波，有的是聲波(如人類)，有的是純磁場，甚至有用<a href="PerfectSymmetricMatter#ColorfulMatter">帶色</a>夸克、重力波、電子射線、質子射線等令人匪夷所思的方式。星際翻譯機最主要的任務就是把不同生物發出的訊息轉換成通用文字。通用文字類似英文，使用字母拼成單字，再使用單字組成句子，共37個字母。使用翻譯機是一種專業，因為即便翻譯機嘗試接近人類語言，但無論距離中文或英文都還有很大的差距。例如若要向外星人表達「讓他搭<a href="Elevator">電梯</a>」，必須在翻譯機輸入「make he a elevator」而不是「let him take an elevator」，而且he不能替換成him、a不能替換成an；反之，當外星人請求你「幫他準備<a href="Elevator">電梯</a>時」，不懂的人可能會看成「把他變成一個電梯」。</div>
+        <div>　　<h1> 人類翻譯機版本 </h1> </div>
+        <div>　　人類最早翻譯成功的文件是「<a href="BasicGeometricFormulasComparisonTableBetweenHumanWorldAndWorldPeroceanate">人類世界與過洋酸世界基本幾何公式對照表</a>」。又經過許多長足的努力，終於在人類西元1973年出現最初版翻譯機「星際翻譯機1.0」。又經過一些改良，在人類西元1975年出版「星際翻譯機1.2」，依據當時操作翻譯機的人員所述，這個翻譯機更貼近中文和英文的文法。人類西元1980年出版「星際翻譯機1.5」，使譯文更貼近中文，但相較之下英文的進步較少，故1980年代，華盛頓中心僱用許多華人當翻譯機操作員。但為了維持翻譯機的穩定且降低翻譯操作員的負擔，規定至少隔10年才能再出新的翻譯機版本。1990年出了「星際翻譯機2.0」，中英文都顯著友善，這個版本產生了一個著名的句子「make me a sandwich」(這個句子在3.0版依然適用)。2000年原本要出新版，但翻譯操作員表示2.0版已經足夠，故未出。2010年出了「星際翻譯機3.0」，更友善的翻譯淘汰掉翻譯操作員且大受許多人類喜愛。但是2012年，翻譯機將「在台灣會合」翻譯成「被台灣人強暴」，引起重大誤會，故又徵招翻譯操作員回原崗位。若直接用自然語言輸入，星際翻譯機3.0的翻譯失誤率僅7%。「星際翻譯機4.0」原表定2020年推出，但到了2023年才推出。其相較3.0沒有太大變化，但更有彈性，例如「Bejusakala」也可以拼成「Bejusakaila」、「Oustrukasiua」可以拼成「Ostrichasiua」或「Austrukasiua」、「World peroceanate」又作「Peroceanic A univer.」等。此外，4.0版本也支援<strong>專有名詞全大寫</strong>，較符合英文習慣，如「World peroceante」也可以叫「World Peroceanate」。傳出5.0版本要納入縮寫功能，例如「<a href="InterworldHumanProtectionAgency">世界際人類保護組織 (Interworld human protection agency)</a>」簡稱「IHPA」。但是縮寫技術困難，加上現在許多人將GPT-4和星際翻譯機串接，使星際翻譯機本身不再有改良必要，所以星際翻譯機可能不會有5.0。 </div>
+        
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
