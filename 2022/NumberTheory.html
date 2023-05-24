@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>Template - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+
+    <article id="article">
+      <div class="title">Template</div>
+
+      <div class="story" id="story">
+        
+        
+        <div>　　<a href="https://zh.wikipedia.org/wiki/%E6%95%B0%E8%AE%BA"><strong>數論</strong></a>主要研究整數的性質。數論分為2種截然不同的體系：<strong>人類數論</strong>、<strong>101遊戲數論</strong>。並非每個星球都有數論的研究，但若有，都屬於2個體系之一。絕大部分的數論問題都可以用2個體系任一體系解出，但2個體系的解法截然不同。用以下問題就可以輕易鑑別一個高等生物習慣使用哪個數論體系：</div>
+        <div>　　<h1> 數論體系測試 </h1> </div>
+        <div>　　問題一： </div>
+        <div>　　X+2<a href="https://zh.wikipedia.org/wiki/%E9%99%A4%E6%B3%95#%E6%95%B4%E9%99%A4">整除</a>3X+4，試求X </div>
+        <div>    <h1>  </h1> </div>
+      	<div>　　問題二： </div>
+        <div>　　A<sub>1</sub> = B<sub>1</sub> </div>
+        <div>　　A<sub>2</sub> = B<sub>2</sub> </div>
+        <div>    <h1> Section3 </h1> </div>
+        <div>　　Section3 </div>
+        
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div id="lastChapter"></div>
+      <div id="content"></div>
+      <div id="nextChapter"></div>
+    </footer>
+</body>
+
+<script src="main.js" defer></script>
+
+<script>
+  $(document).bind("contextmenu copy selectstart", function() {
+    return false;
+  });
+</script>
+
+</html>
