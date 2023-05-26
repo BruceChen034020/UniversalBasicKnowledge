@@ -89,7 +89,7 @@
   帶色星元 Field colorful entities (F!#)
     58. 行政中心域 Domain administration (F!#0)
     1域 Domain 1 (F!#1)
-      59. 熱KbFd分 Division ?KbFd (F61KF)
+      59. 熱KbFd分 Division ?KbFd (F!#1KF)
   不平星元 Field unpieceful entities (F8)
     60. 行政中心域 Domain administration (F80)
     1域 Domain 1 (F81)
