@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>星際心理學 - 宇宙基本知識</title>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+</head>
+<body>
+    <header id="header">
+      <div class="background">背景
+        <button class="white"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+        <button class="gray"></button>
+        <button class="black"></button>
+      </div>
+      <div class="fontSize">文字
+        <button class="big">+</button>
+        <button class="small">-</button>
+      </div>
+    </header>
+php
+Copy code
+<article id="article">
+  <div class="title">星際心理學</div>
+
+  <div class="story" id="story">
+    
+    
+    <div>　　星際心理學是一門研究人類在星際探索和殖民等未來空間環境中心理適應的學科。它探討人類在長期太空飛行、太空居住和與外星文明接觸等情境下的心理影響、挑戰和應對策略。</div>
+    <div>    <h1> 概述 </h1> </div>
+    <div>　　星際探索和殖民是人類未來航天發展的重要目標之一。然而，長期太空飛行和太空居住將對人類的心理狀態產生重大影響。在與地球不同的環境中，人類可能會面臨孤獨感、壓力、時間延展、生活資源限制等種種困難。</div>
+    <div>    <h1> 研究領域 </h1> </div>
+    <div>　　星際心理學涵蓋了多個研究領域，包括：</div>
+    <ul>
+      <li>太空飛行和太空居住對人類心理的影響</li>
+      <li>長期航天任務中的心理健康和壓力管理</li>
+      <li>太空生活條件下的人際關係和團隊合作</li>
+      <li>外星文明接觸和交流的心理適應</li>
+      <li>太空旅行中的情感和心理困境</li>
+      <li>在狹小、封閉環境中的心理適應和行為變化</li>
+    </ul>
+    <div>　　這些研究領域的目標是瞭解和解決太空探索和殖民中可能出現的心理問題，並提供有效的心理支持和應對策略。</div>
+    <div>    <h1> 挑戰和應對策略 </h1> </div>
+    <div>　　長期太空飛行和太空居住將對人類的心理健康和適應能力提出嚴峻挑戰。以下是一些可能出現的挑戰和相應的應對策略：</div>
+    <table style="width:100%">
+      <tr>
+        <th>挑戰</th>
+        <th>應對策略</th>
+      </tr>
+      <tr>
+        <td>孤獨感</td>
+        <td>提供心理支持和社交連結</td>
+      </tr>
+      <tr>
+        <td>壓力和心理壓力</td>
+        <td>訓練應對能力和壓力管理技巧</td>
+      </tr>
+      <tr>
+        <td>生活資源限制</td>
+        <td>開發可持續的生活支援系統</td>
+      </tr>
+      <tr>
+        <td>團隊合作和人際關係</td>
+        <td>建立有效的溝通和合作機制</td>
+      </tr>
+      <tr>
+        <td>外星文明接觸</td>
+        <td>準備和訓練應對外星文明接觸的心理能力</td>
+      </tr>
+    </table>
+    <div>　　這些策略旨在幫助太空探索者和殖民者克服心理困境，保持心理健康和適應能力。</div>
+    <div>    <h1> 結論 </h1> </div>
+    <div>　　星際心理學是一門關注人類在星際探索和殖民等未來空間環境中心理適應的學科。它研究人類在長期太空飛行、太空居住和與外星文明接觸等情境下的心理影響和應對策略。通過瞭解這些問題並提供相應的支持和應對策略，星際心理學將為人類未來的星際探索和殖民提供重要的指導和支持。</div>
+
+    
+  </div>
+</article>
+
+<script>
+  $(document).ready(function () {
+    $(".white").click(function () {
+      $("body").css("background-color", "white");
+    });
+    $(".green").click(function () {
+      $("body").css("background-color", "lightgreen");
+    });
+    $(".blue").click(function () {
+      $("body").css("background-color", "lightblue");
+    });
+    $(".gray").click(function () {
+      $("body").css("background-color", "lightgray");
+    });
+    $(".black").click(function () {
+      $("body").css("background-color", "black");
+      $("body").css("color", "white");
+    });
+    $(".big").click(function () {
+      $("#article").css("font-size", "larger");
+    });
+    $(".small").click(function () {
+      $("#article").css("font-size", "smaller");
+    });
+  });
+</script>
+</body>
+</html>
